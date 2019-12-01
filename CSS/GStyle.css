@@ -1,0 +1,102 @@
+body {
+background:#8080ff;
+}
+
+section {
+width:95%;
+margin:10% auto;
+background:white;
+border-radius: 8px;
+box-shadow:2px 2px 10px;
+}
+
+#underline {
+text-align:center;
+margin-bottom:2%;
+margin-top:2%;
+border-bottom:crimson solid 3px;
+}
+
+.info{
+width:100%;
+margin-top:12%;
+padding:0% 2% 0% 2%;
+}
+
+.rgb{
+width:100%;
+padding:5%;
+background-image:url(../IMG/rgb.jpg);
+background-size:cover;
+}
+
+.cm{
+width:100%;
+padding:5%;
+background-image:url(../IMG/cm.jpg);
+background-size:cover;
+}
+.sat{
+width:12%;
+margin:auto;
+}
+
+.info h3{
+margin-bottom:4%;
+}
+
+.info h4{
+margin:4% 0% 4% 5%;
+}
+
+/*Aqui se agregan los colores para tendencias*/
+
+/*poderosos*/
+/*txt texto y bg background*/
+.txtu{
+color:#1D2527;
+}
+.bgu{
+background:red;
+}
+/*Amistosos*/
+.txtd{
+color:#1D2527;
+}
+.bgd{
+background:orange;
+}
+/*bt3*/
+.txtt{
+color:#1D2527;
+}
+.bgt{
+background:#e4d60d;
+}
+/*b4*/
+.txtc{
+color:#1D2527;
+}
+.bgc{
+background:#9dec7d;
+}
+/*b5*/
+.txti{
+color:#1D2527;
+}
+.bgi{
+background:#0edf99;
+}
+/*b6*/
+.txts{
+color:#1D2527;
+}
+.bgs{
+background:white;
+}
+
+@media (max-width:720px){
+section {
+margin-top:15%;
+}
+}
