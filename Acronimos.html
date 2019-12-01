@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es" >
+<head>
+<title>Conociendo sobre los colores</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="CSS/Global.css" >
+<link rel="stylesheet" href="CSS/style.css" >
+<link rel="stylesheet" href="CSS/GStyle.css" >
+	<link rel="icon" href="IMG/icon.ico" >
+</head>
+
+<body>
+<header id="header">
+	<nav class="menu" id="menu">
+		<div class="logo">
+			<a href="index.html" ><img src="IMG/icono.png" ></a>
+			<a href="#" class="btn-menu" id="btn-menu"><i class="icon-menu icono"></i></a>
+		</div>
+		
+		<div class="enlaces" id="enlaces">
+			<a href="index.html" >Inicio</a>
+			<a href="#" >Acrónimos</a>
+			<a href="Foto.html" >Fotometría</a>
+			<a href="Tendencia.html" >Tendencia y Color</a>
+			<a href="Teoria.html" >Teoría y Color</a>
+			<a href="Referencias.html" >Recursos</a>
+		</div>
+	</nav>
+</header>
+
+<section>
+	<div id="underline" >
+		<br>
+		<h2>Acrónimos</h2>
+		<br>
+	</div>
+	
+	<article class="info" >
+		<h3>RGB</h3>
+		<p>RGB (sigla en inglés de red, green, blue) es un
+		 modelo de color basado en la síntesis aditiva, con el que es
+		  posible representar un color mediante la mezcla por adición de los tres colores
+		de luz primarios.</p><br/>
+		   <div class="rgb" >
+		   </div>
+	</article>
+	
+	<article class="info" >
+		<h3>CYMK</h3>
+		<p>CMYK (siglas de Cyan, Magenta, Yellow y Key) es un modelo
+		 de color sustractivo que se utiliza en la impresión en colores. Es la
+		  versión moderna y más precisa del antiguo modelo tradicional de coloración (RGB).El cian es el opuesto al
+		   rojo, lo que significa que actúa como un filtro que absorbe dicho color 
+		   (-R +G +B). Magenta es el opuesto 
+		   al verde (+R -G +B) y amarillo el
+			opuesto al azul (+R +G -B).</p><br>
+		    <div class="cm" >
+		    </div>
+	</article>
+	
+	<article class="info" >
+		<h3>HSV</h3>
+		<p>HSV (del inglés Hue, Saturation, Value – Matiz, Saturación, Valor), también llamado HSB
+		 (Hue, Saturation, Brightness – Matiz, Saturación, Brillo), define un modelo de color en términos 
+		 de sus componentes.</p>
+<h4>&nbsp;&nbsp;Matiz</h4>
+<p>Se representa como un grado de ángulo
+ cuyos valores van de 0 a 360°
+  (aunque para algunas aplicaciones 
+  se normalizan del 0 al 100%). Cada valor
+   corresponde a un color. Ejemplos: 0
+    es rojo, 120 es verde y 240 es verde.</p>
+    
+<h4>&nbsp;&nbsp;Saturación</h4>
+<p>Se representa como la distancia 
+al eje de brillo negro-blanco. Los valores posibles
+ van del 0 al 100%.Cuanto menor sea la saturación de un color, mayor tonalidad grisácea habrá y
+  más decolorado estará</p>
+<h4>&nbsp;&nbsp;&nbsp;Valor</h4>
+<p>Representa la altura en el
+ eje blanco-negro. Los valores
+  posibles van del 0 al 100%. 0 siempre es negro.
+   Dependiendo de la saturación, 100 podría ser blanco o
+    un color más o menos saturado</p>
+    <div class="sat">
+    	<img src="IMG/sat.jpg"/>
+    </div>
+	</article>
+	
+	<article class="info" >
+		<h3>HTML</h3>
+		<p>La gama de colores de la Web 
+		consiste en 216 combinaciones de rojo, verde y azul, donde 
+		cada color puede tomar un valor entre seis diferentes (en numeración hexadecimal): #00, #33, #66, #99, #CC o #FF, cuyos 
+		valores respectivos en sistema decimal equivalen a 0, 51, 102, 153, 204 y 
+		255, que tienen un porcentaje de intensidad de 0%, 20%, 40%, 60%, 80% y 100%, 
+		respectivamente.</p><br>
+	</article>
+	<div>
+		<div style="text-align:center;">
+			<div>
+			  <h3>Prueba este visualizador de colores HTML:</h3>
+			  <br>
+			  <input type="color" onchange="clickColor(0, -1, -1, 5)" value="#ff0000" style="width:35%;">
+			</div>
+		</div>
+	</div>
+	<br><br>
+</section>
+
+<script type="text/javascript" src="JS/Headroom.js"></script>
+<script type="text/javascript" src="JS/Jquery.js"></script>
+<script type="text/javascript" src="JS/indexJ.js"></script>
+
+</body>
+
+</html>
