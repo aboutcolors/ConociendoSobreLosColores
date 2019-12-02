@@ -1,7 +1,7 @@
 # ConociendoSobreLosColores
 En esta página web podrás encontrar información diversa acerca de los colores, su fotometría, las tendencias de la misma, etc.
 <br>
-<b>Divida en 5 secciones y un inicio:</b><br>
+<b>Dividida en 5 secciones y un inicio:</b><br>
 -Acrónimos<br>
 -Fotometría<br>
 -Tendencia y Color<br>
